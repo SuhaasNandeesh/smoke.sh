@@ -3,7 +3,8 @@ pipeline {
       stages {
         stage ('Smoke Test') {
           steps {
-            sh 'sudo ./smoke-google'
+            sh 'chmod +x ./smoke-google'
+            sh './smoke-google'
           }
         }
       }
