@@ -3,7 +3,7 @@ pipeline {
       stages {
         stage ('Smoke Test') {
           steps {
-            sh './smoke-google'
+            sh 'sudo ./smoke-google'
           }
         }
       }
