@@ -1,5 +1,5 @@
 pipeline {
-  agent none {
+  agent none
       stages {
         stage ('Smoke Test') {
           steps {
@@ -7,5 +7,4 @@ pipeline {
           }
         }
       }
-  }
 }
